@@ -13,7 +13,7 @@ def parse_requirements(filename):
 
 setup(
     name='flask-ask-youtube',
-    version='0.9.8',
+    version='1.9.8',
     url='https://github.com/andrewstech/flask-ask',
     license='Apache 2.0',
     author='John Wheeler',
