@@ -12,9 +12,9 @@ def parse_requirements(filename):
     return [line for line in lineiter if line and not line.startswith("#")]
 
 setup(
-    name='Flask-Ask',
+    name='Flask-Ask-youtube',
     version='0.9.7',
-    url='https://github.com/johnwheeler/flask-ask',
+    url='https://github.com/andrewstech/flask-ask',
     license='Apache 2.0',
     author='John Wheeler',
     author_email='john@johnwheeler.org',
