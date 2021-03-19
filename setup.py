@@ -12,7 +12,7 @@ def parse_requirements(filename):
     return [line for line in lineiter if line and not line.startswith("#")]
 
 setup(
-    name='Flask-Ask-youtube',
+    name='flask-ask-youtube',
     version='0.9.7',
     url='https://github.com/andrewstech/flask-ask',
     license='Apache 2.0',
@@ -20,7 +20,7 @@ setup(
     author_email='john@johnwheeler.org',
     description='Rapid Alexa Skills Kit Development for Amazon Echo Devices in Python',
     long_description=__doc__,
-    packages=['flask_ask'],
+    packages=['flask_ask_youtube'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
