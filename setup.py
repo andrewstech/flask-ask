@@ -2,7 +2,7 @@
 Flask-Ask
 -------------
 
-Easy Alexa Skills Kit integration for Flask
+A fork of https://github.com/johnwheeler/flask-ask for https://github.com/unofficial-skills/youtube-alexa-python
 """
 from setuptools import setup
 
